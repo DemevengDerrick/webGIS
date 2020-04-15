@@ -1,0 +1,82 @@
+#mapid { 
+    height: 900px; 
+}
+
+#left-div{
+    height: 900px;
+    width: 300px;
+    background-color: cadetblue;
+    float: left;
+    display: none;
+}
+
+#fadeAway-left{
+    position: absolute;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 6px;
+    margin-left: 9px;
+    margin-top: 80px;
+    border-radius: 4px;
+    z-index: 500;
+}
+
+#main-Left{
+    float: right;
+    height: 450px;
+    margin-top: -800px;
+}
+
+#right-div{
+    position: relative;
+    height: 450px;
+    width: 300px;
+    background-color: cadetblue;
+    display: none;
+    z-index: 600;
+    float: right;
+}
+
+#fadeAway-right{
+    position: relative;
+    height: 100px;
+    width: 30px;
+    background-color: cadetblue;
+    float: left;
+    z-index: 600;
+}
+
+#button-left{
+    background-color: cadetblue;
+    border: none;
+    width: 30px;
+}
+
+#footer{
+    height: 40px;
+    background-color: cadetblue;
+}
+
+#header{
+    height: 40px;
+    background-color: cadetblue;
+}
+
+.title{
+    background-color: lightcyan;
+    color: orange;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.layer-space{
+    background-color: lightgray;
+    height: 200px;
+    margin-top: -16px;
+}
+
+#credential{
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+}
